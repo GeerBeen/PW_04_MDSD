@@ -1,0 +1,36 @@
+# Побудовані артефакти та згенеровані файли
+*.apk
+*.aar
+*.aab
+*.dex
+*.class
+
+# Директорії збірки Gradle та IDE
+.gradle/
+build/
+/build
+*/build/
+.kotlin/
+.artifacts/
+
+# Файли налаштувань Android Studio / IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Локальні конфігурації (шляхи до Android SDK тощо)
+local.properties
+
+# Логи та профайлінг
+*.log
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Системні файли операційних систем
+.DS_Store
+Thumbs.db
+
+# Збереження обгортки Gradle у репозиторії
+!gradle/wrapper/gradle-wrapper.jar
